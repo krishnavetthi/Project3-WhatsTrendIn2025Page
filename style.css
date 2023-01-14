@@ -1,0 +1,48 @@
+/* You can not modify anything from the HTML file */
+/* You can only modify the CSS file */
+*{
+    font-family: 'Poppins';
+}
+body{
+    margin-left: 100px;
+    margin-top: 50px;
+    margin-right: 100px;
+}
+nav {
+    display: flex;
+    align-items:center;
+}
+
+nav div ul{
+    display: flex;
+    align-items: center;
+    gap:30px;
+}
+
+nav div ul li {
+    list-style: none;
+    margin-right: 40px;
+    font-weight: 500;
+    font-size:larger;
+} 
+
+.list{
+    margin-left: 200px;
+    margin-right: 100px;
+}
+
+.button-group{
+    margin-left: 20px;   
+}
+
+.nav-button{
+    border-radius: 10px;
+    height: 40px;
+    width:100px;
+    margin-left: 10px;
+    font-size:larger;
+}
+
+.square{
+    object-position: bottom;
+}
