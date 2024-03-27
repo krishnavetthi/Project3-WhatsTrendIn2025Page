@@ -13,6 +13,10 @@ nav {
     align-items:center;
 }
 
+img[alt="brand-logo"]{
+    width:120px;
+}
+
 nav div ul{
     display: flex;
     align-items: center;
@@ -26,23 +30,125 @@ nav div ul li {
     font-size:larger;
 } 
 
+nav div ul li:first-child {
+    font-size:26px;
+    text-decoration:underline;
+}
+
 .list{
     margin-left: 200px;
-    margin-right: 100px;
+    margin-right: 60px;
 }
 
 .button-group{
-    margin-left: 20px;   
+    margin-left: 20px;  
 }
 
 .nav-button{
     border-radius: 10px;
     height: 40px;
-    width:100px;
+    width:140px;
     margin-left: 10px;
     font-size:larger;
+    margin-right: 30px;
+    padding: 5px 40px 0px 40px;
+}
+
+img[alt="person-hero-iamge"]{
+    position: relative;
+    top: 50px;
+    right: 550px;
+    width:30vw;
+} 
+
+.globe{
+    position: relative;
+    top:20px;
+    left: 250px;
+}
+
+img[alt="globe-pattern"]{
+width:50px;
 }
 
 .square{
     object-position: bottom;
+}
+
+img[alt="start-pattern1"]{
+    position: relative;
+    top:50px;
+    left: 770px;
+    width:50px;
+}
+
+img[alt="start-pattern2"]{
+    position: relative;
+    top: 600px;
+    left: 120px;
+    width:40px;
+}
+
+img[alt="square-pattern"]{
+    width:400px;
+    position: relative;
+    top: 260px;
+    left:110px;
+}
+
+.hero-container{
+    display:flex;
+    flex-direction: row;
+}
+
+.hero-container-right{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    top: 100px;
+    right:450px;
+}
+
+.hero-heading{
+    font-size:65px;
+    font-weight: bold;
+    width:800px;
+    position: relative;
+    bottom:50px;
+}
+
+.hero-description{
+    width:600px;
+    font-size:14px;
+    position: relative;
+    bottom:80px;
+    text-align:center;
+}
+
+.button-email{
+    margin-bottom: 50px;
+    border-radius:10px;
+    padding: 5px 20px;
+}
+
+.button-join{
+    border-radius:10px;
+    padding: 5px 20px;
+    color:white;
+    background-color:black;
+}
+
+.contact-heading{
+   font-size: 20px;
+   font-weight: 150;
+   text-align: center;
+}
+
+.icons{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    gap:20px;
 }
